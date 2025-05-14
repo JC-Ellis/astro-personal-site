@@ -9,7 +9,6 @@ tags:
   - React Native
   - TypeScript
   - Express
-  - MongoDB
   - Supabase
 ---
 > From casual rides to mountain trails — PedalOut brings cyclists together, one ride at a time.
@@ -20,7 +19,7 @@ New users can sign up or log in via **Supabase Auth**, and after onboarding, the
 
 ---
 
-### Key Features
+#### Key Features
 
 - Post your own rides by pinning a location on the map and entering event details
 - Browse interactive maps with real-time ride markers (powered by **Google Maps API**)
@@ -29,19 +28,29 @@ New users can sign up or log in via **Supabase Auth**, and after onboarding, the
 
 ---
 
-### Community and Chat
+#### Community and Chat
 
 The **Connections** page helps users manage their followers and followings, making it easier to share and discover rides in trusted circles. Messaging is handled through a real-time **chat** feature, backed by **MongoDB**, where each message is stored as a document and grouped by chat ID. Conversations update instantly and allow users to message friends or group participants without delay.
 
 ---
 
-### Tech Highlights
+#### Tech Highlights
 
 - RESTful backend with full CRUD functionality
 - Authentication and user syncing via **Supabase**
 - Real-time chat built on **MongoDB** with efficient document structure
 - Fully tested front end using **Jest**
 - Designed with accessibility and mobile-first UX in mind
+
+---
+
+####  Project Links
+
+- 📖 [Northcoders Blog Feature](https://www.northcoders.com/blog/student-projects-pedal-out/)
+- 💻 [Frontend GitHub Repo](https://github.com/theskywillbeblue/pedal-out-FE)
+- 🖥️ [Backend GitHub Repo](https://github.com/theskywillbeblue/pedal-out-BE)
+
+---
 
 <div style="padding:56.25% 0 0 0;position:relative;">
   <iframe 

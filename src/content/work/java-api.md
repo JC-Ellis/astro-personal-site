@@ -8,9 +8,7 @@ description: |
 tags:
   - Java
   - Spring Boot
-  - REST API
   - PostgreSQL
-  - MVC
 ---
 
 > My first backend project in Java — a learning exercise in Spring Boot and building production-ready APIs.
@@ -21,7 +19,7 @@ Though the project is still in progress, it already demonstrates core concepts l
 
 ---
 
-### Key Goals
+#### Key Goals
 
 - RESTful API covering full CRUD operations
 - Clean separation of concerns (Controller → Service → Repository)
@@ -30,7 +28,7 @@ Though the project is still in progress, it already demonstrates core concepts l
 
 ---
 
-### What I'm Learning
+#### What I'm Learning
 
 This project has been a hands-on way to:
 - Understand how Spring Boot automates backend architecture
@@ -40,7 +38,7 @@ This project has been a hands-on way to:
 
 ---
 
-### Tech Stack
+#### Tech Stack
 
 - **Java 17**, **Spring Boot 3**
 - PostgreSQL with JPA and Hibernate

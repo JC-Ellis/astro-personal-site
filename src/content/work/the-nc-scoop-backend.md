@@ -8,7 +8,6 @@ description: |
 tags:
   - Express
   - PostgreSQL
-  - TDD
   - REST API
 ---
 
@@ -18,7 +17,7 @@ This backend project powers **The NC Scoop** — a full-stack news app. It provi
 
 ---
 
-### Features
+#### Features
 
 - RESTful architecture with full CRUD functionality
 - Topics, articles, users, and comments endpoints
@@ -28,7 +27,7 @@ This backend project powers **The NC Scoop** — a full-stack news app. It provi
 
 ---
 
-### Testing & Dev Process
+#### Testing & Dev Process
 
 - Built using **Test Driven Development (TDD)** with **Jest** and **Supertest**
 - Modular controller-service architecture
@@ -36,7 +35,13 @@ This backend project powers **The NC Scoop** — a full-stack news app. It provi
 - PostgreSQL database hosted on **ElephantSQL**
 
 ---
+####  Project Links
 
-### Connected Projects
+- 🌐 [Live API](https://be-nc-news-btqn.onrender.com/api)  
+- 💻 [GitHub Repo](https://github.com/JC-Ellis/be-nc-news)
 
-> 🔗 [View the Frontend](./the-nc-scoop-frontend) – Built with React and Axios
+---
+
+#### Connected Projects
+
+> 🔗 [View the Frontend](./the-nc-scoop-frontend)<br> – Built with React and Axios

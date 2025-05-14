@@ -18,7 +18,7 @@ The NC Scoop frontend is a responsive React application that interfaces with a c
 
 ---
 
-### Features
+#### Features
 
 - Browse and filter news by topic or popularity
 - Leave, view, and delete comments
@@ -28,7 +28,7 @@ The NC Scoop frontend is a responsive React application that interfaces with a c
 
 ---
 
-### Tech Stack
+#### Tech Stack
 
 - Built with **React** and **Vite**
 - API calls made using **Axios**
@@ -38,6 +38,13 @@ The NC Scoop frontend is a responsive React application that interfaces with a c
 
 ---
 
-### Connected Projects
+####  Project Links
 
-> 🔗 [View the Backend](./the-nc-scoop-backend)<br> – Built with Express and PostgreSQL
+- 🌐 [Live Site](https://the-nc-scoop.netlify.app/)  
+- 💻 [GitHub Repo](https://github.com/JC-Ellis/northcoders-news-FE)
+
+---
+
+#### Connected Projects
+
+>  [View the Backend](./the-nc-scoop-backend)<br> – Built with Express and PostgreSQL
