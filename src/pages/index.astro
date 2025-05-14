@@ -30,22 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hi, I'm James Ellis"
+					tagline="A Junior Software Developer based in Newcastle-upon-Tyne, passionate about building accessible, full-stack applications."
 					align="start"
 				>
-					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
-					</div>
+				<div class="roles">
+					<Pill><Icon icon="code" size="1.33em" /> Full-Stack Developer</Pill>
+					<Pill><Icon icon="bike" size="1.33em"/> Cyclist</Pill>
+					<Pill><Icon icon="draw" size="1.33em" /> Photoshop</Pill>
+				  </div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Me and Penny"
 					width="480"
-					height="620"
-					src="/assets/portrait.jpg"
+					height="540"
+					src="/assets/me-penny.jpg"
 				/>
 			</header>
 
@@ -55,12 +55,12 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>Projects</h3>
+					<p>Take a look at some of the projects I've worked on.</p>
 				</header>
 
 				<div class="gallery">
-					<Grid variant="offset">
+					<Grid >
 						{
 							projects.map((project) => (
 								<li>
@@ -81,25 +81,41 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
+				  <h3>Tech Stack</h3>
+				  <p>
+					Here's a snapshot of the technologies I've worked with across my projects — from full-stack
+					apps to real-time features and testing.
+				  </p>
 				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
+			  
+				<div class="gallery tech-grid">
+				  <Grid variant="small" >
+					{
+					  [
+						{ name: 'JavaScript', logo: '/assets/logos/javascript.svg' },
+						{ name: 'TypeScript', logo: '/assets/logos/typescript.svg' },
+						{ name: 'React', logo: '/assets/logos/react.svg' },
+						{ name: 'Node.js', logo: '/assets/logos/nodedotjs.svg' },
+						{ name: 'Express', logo: '/assets/logos/express.svg' },
+						{ name: 'PostgreSQL', logo: '/assets/logos/postgresql.svg' },
+						{ name: 'MongoDB', logo: '/assets/logos/mongodb.svg' },
+						{ name: 'Supabase', logo: '/assets/logos/supabase.svg' },
+						{ name: 'Jest', logo: '/assets/logos/jest.svg' },
+						{ name: 'Git', logo: '/assets/logos/git.svg' },
+						{ name: 'HTML5', logo: '/assets/logos/html5.svg' },
+						{ name: 'CSS3', logo: '/assets/logos/css.svg' },
+					  ].map(({ name, logo }) => (
+					  <li class="mention-card tech-card">
+  <div class="logo-wrapper">
+    <img src={logo} alt={name} width="40" height="40" />
+  </div>
+  <p>{name}</p>
+</li>
+					  ))
+					}
+				  </Grid>
 				</div>
-			</section>
+			  </section>
 		</main>
 
 		<ContactCTA />
@@ -249,4 +265,39 @@ const projects = (await getCollection('work'))
 			height: 9.5rem;
 		}
 	}
+
+	.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem; /* tighter spacing between icon and text */
+  font-size: 1rem; /* smaller text (12px) */
+  padding: 0.5rem; /* reduce overall padding */
+  max-width: 150px; /* optional: control width */
+}
+
+.tech-card img {
+  display: block;
+}
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+.logo-wrapper {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+html.dark .logo-wrapper {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
 </style>
