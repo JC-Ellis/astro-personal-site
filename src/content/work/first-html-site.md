@@ -1,5 +1,5 @@
 ---
-title: My First Website (From Scratch)
+title: My First Webpage
 publishDate: 2022-01-10 00:00:00
 img: /assets/my-first-webpage.png
 img_alt: Screenshot of a personal HTML website
@@ -13,7 +13,7 @@ tags:
 
 > Everyone starts somewhere — and this is where I began.
 
-This was the very first website I ever built — no libraries, no templates, no frameworks. Just a blank text editor, a `<table>`, and a dream. It was my entry point into the world of web development, where I learned how markup languages work, how to structure a page, and most importantly, how fun and creative building for the web can be.
+This was the very first webpage I ever built — no libraries, no templates, no frameworks. Just a blank text editor, a `<table>`, and a dream. It was my entry point into the world of web development, where I learned how markup languages work, how to structure a page, and most importantly, how fun and creative building for the web can be.
 
 I wrote the whole thing in raw HTML: headings, images, tables, and even a few links (including one to a very important **Cumberland sausage review**). I had no idea what semantic HTML was yet, but I was hooked from the moment I hit `save` and opened the file in a browser.
 

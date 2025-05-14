@@ -1,5 +1,5 @@
 ---
-title: The NC Scoop (Frontend)
+title: The NC Scoop
 publishDate: 2025-03-20 00:00:00
 img: /assets/TheNCScoop.png
 img_alt: A clean news app interface displaying headlines, articles, and categories
