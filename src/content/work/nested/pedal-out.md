@@ -8,7 +8,6 @@ description: |
 tags:
   - React Native
   - TypeScript
-  - Express
   - Supabase
 ---
 > From casual rides to mountain trails — PedalOut brings cyclists together, one ride at a time.
