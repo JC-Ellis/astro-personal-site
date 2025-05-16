@@ -8,7 +8,6 @@ description: |
 tags:
   - React
   - Axios
-  - Client-side Routing
   - Netlify
 ---
 
@@ -35,13 +34,13 @@ The NC Scoop frontend is a responsive React application that interfaces with a c
 - **React Router** for navigation
 - Styled using utility-first CSS and media queries
 - Hosted on **Netlify**
-
 ---
 
 ####  Project Links
 
 - 🌐 [Live Site](https://the-nc-scoop.netlify.app/)  
 - 💻 [GitHub Repo](https://github.com/JC-Ellis/northcoders-news-FE)
+
 
 ---
 
