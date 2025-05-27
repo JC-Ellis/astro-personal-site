@@ -1,148 +1,186 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | James Ellis" description="About James Ellis – Junior Software Developer based in Newcastle-upon-Tyne.">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about me and my journey into software development."
-			>
-				<img
-					width="1553"
-					height="300"
-					src="/assets/me-bike.jpg"
-					alt="Me with my bike"
-				/>
-			</Hero>
+<BaseLayout
+  title="About | James Ellis"
+  description="About James Ellis – Junior Software Developer based in Newcastle-upon-Tyne."
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="About"
+        tagline="Thanks for stopping by. Read below to learn more about me and my journey into software development."
+      >
+        <img
+          width="1553"
+          height="300"
+          src="/assets/me-bike.jpg"
+          alt="Me with my bike"
+        />
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						I'm James Ellis, a Junior Software Developer based in Newcastle-upon-Tyne with a background in eCommerce, logistics, and warehouse operations. After years of managing fast-paced environments, I made a career switch into software development to pursue my passion for solving problems and building things that make life easier.
-					</p><br>
-					<p>
-						I live with my wife Eloise, our daughter Jessie, and our energetic dog Penny. Balancing family life with learning and career development has helped me become more focused, resilient, and curious — qualities that also shape how I approach software engineering.
-					</p>
-					<p><br>
-						I recently completed the Northcoders Software Engineering Bootcamp, where I built full-stack applications using JavaScript, Node.js, React, and PostgreSQL. I’m especially drawn to projects that involve real-world problem-solving and community-building — like my capstone project, <strong>PedalOut</strong>, a social cycling app for discovering and sharing local rides.
-					</p><br>
-					<p>
-						My previous experience leading warehouse teams and maintaining eCommerce platforms gave me a strong foundation in communication, process improvement, and working under pressure — all of which I bring to my work as a developer.
-					</p>
-				</div>
-			</section>
+      <section>
+        <h2 class="section-title">Background</h2>
+        <div class="content">
+          <p>
+            I'm James Ellis, a Junior Software Developer based in Newcastle upon
+            Tyne, with a background in eCommerce, logistics, and warehouse
+            operations. After years of managing fast-paced environments, I made
+            a career switch into software development to pursue my passion for
+            solving problems and building things that make life easier.
+          </p><br />
+          <p>
+            At home, I live with my wife Eloise, our daughter Jessie, and our
+            energetic dog Penny. Balancing family life with learning and career
+            growth has helped me become more focused, resilient, and curious.
+            These are qualities I bring with me into every project I work on.
+          </p>
+          <p>
+            <br />
+            I recently completed the Northcoders Software Engineering Bootcamp, where
+            I built full-stack applications using JavaScript, Node.js, React, and
+            PostgreSQL. I'm especially interested in projects that solve real-world
+            problems and bring people together. One example is <strong
+              >PedalOut</strong
+            >, a social cycling app I created with my project group during the course that helps users
+            discover and share local rides.
+          </p><br />
+          <p>
+            Before becoming a developer, I led warehouse teams and worked with
+            eCommerce platforms. That experience gave me a solid foundation in
+            communication, process improvement, and working under pressure.
+            These skills continue to support me in my work as a developer.
+          </p>
+        </div>
+      </section>
 
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>
-						<strong>Northcoders Software Engineering Bootcamp</strong><br />
-						Jan 2025 – Apr 2025
-					</p>
-					<ul>
-						<li>Built full-stack projects using JavaScript, React, Node.js, and PostgreSQL</li>
-						<li>Applied test-driven development with Jest and Supertest</li>
-						<li>Collaborated in Agile teams using GitHub, CI/CD, and pair programming</li>
-					</ul><br>
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <p>
+            <strong>Northcoders Software Engineering Bootcamp</strong><br />
+          </p>
+          <ul>
+            <li>
+              Built full-stack projects using JavaScript, React, Node.js, and
+              PostgreSQL
+            </li>
+            <li>Applied test-driven development with Jest and Supertest</li>
+            <li>
+              Collaborated in Agile teams using GitHub, CI/CD, and pair
+              programming
+            </li>
+          </ul><br />
 
-					<p>
-						<strong>Codecademy – Java & Spring Boot Track</strong><br />
-						Ongoing
-					</p>
-					<ul>
-						<li>Learning Java fundamentals, Spring Boot, REST APIs, and MVC architecture</li>
-					</ul>
-				</div>
-			</section>
+          <p>
+            <strong>Codecademy – Java & Spring Boot Track</strong><br />
+          </p>
+          <ul>
+            <li>
+              Learning Java fundamentals, Spring Boot, REST APIs, and MVC
+              architecture
+            </li>
+          </ul>
+        </div>
+      </section>
 
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<ul>
-						<li><strong>Languages:</strong> JavaScript, TypeScript</li>
-						<li><strong>Front-end:</strong> React, React Native, HTML, CSS</li>
-						<li><strong>Back-end:</strong> Node.js, Express.js, PostgreSQL, MongoDB</li>
-						<li><strong>Testing:</strong> Jest, Supertest, TDD</li>
-						<li><strong>Tools & Deployment:</strong> Git, GitHub, Netlify, Render, Supabase, Expo</li>
-						<li><strong>Soft Skills:</strong> Agile workflows, communication, problem-solving, technical documentation</li>
-					</ul>
-				</div>
-			</section>
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="content">
+          <ul>
+            <li><strong>Languages:</strong> JavaScript, TypeScript, Java</li>
+            <li><strong>Front-end:</strong> React, React Native, Spring Boot, HTML, CSS</li>
+            <li>
+              <strong>Back-end:</strong> Node.js, Express.js, PostgreSQL, MongoDB
+            </li>
+            <li><strong>Testing:</strong> Jest, Supertest, TDD</li>
+            <li>
+              <strong>Tools & Deployment:</strong> Git, GitHub, Netlify, Render,
+              Supabase, Expo
+            </li>
+            <li>
+              <strong>Soft Skills:</strong> Agile workflows, communication, problem-solving,
+              technical documentation, team-leading
+            </li>
+          </ul>
+        </div>
+      </section>
 
-			<section>
-				<h2 class="section-title">Interests</h2>
-				<div class="content">
-					<p>
-						When I’m not coding, I’m usually out on my mountain bike or exploring new trails with my wife and my daughter. I also enjoy indoor and outdoor climbing, hiking, and digging into front-end development tutorials or side projects to keep building my skills.
-					</p>
-				</div>
-			</section>
-		</main>
+      <section>
+        <h2 class="section-title">Interests</h2>
+        <div class="content">
+          <p>
+            When I’m not coding, I’m usually out on my mountain bike or
+            exploring new trails with my wife and my daughter. I also enjoy
+            indoor and outdoor climbing, hiking, and digging into front-end
+            development tutorials or side projects to keep building my skills.
+          </p>
+        </div>
+      </section>
+    </main>
 
-		<ContactCTA />
-	</div>
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>

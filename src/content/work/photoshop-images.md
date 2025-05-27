@@ -3,7 +3,7 @@ title: Photoshop Showcase
 publishDate: 2023-05-15
 img: /assets/photoshop-cover.jpg
 description: |
-  A scrollable gallery of Photoshop projects, including photo edits, composites, and posters.
+  A gallery of Photoshop projects, including composites, and posters.
 tags:
   - Photoshop
   - Gallery

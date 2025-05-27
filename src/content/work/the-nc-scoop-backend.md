@@ -13,7 +13,7 @@ tags:
 
 > A robust backend API that powers a dynamic news application.
 
-This backend project powers **The NC Scoop** — a full-stack news app. It provides RESTful endpoints to fetch, filter, post, and delete news articles, users, and comments. All routes include robust error handling and clear API documentation.
+This backend project powers **The NC Scoop**, a full-stack news app. It provides RESTful endpoints to fetch, filter, post, and delete news articles, users, and comments. All routes include robust error handling and clear API documentation.
 
 ---
 
